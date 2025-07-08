@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="xX1jSRtvVt2Q9w7JnDSg">
+    <mxGraphModel dx="872" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-1" target="_Mm1a8ISe6kqLSYXI3_9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-1" value="&lt;b&gt;Define Problem:&lt;br&gt;Predict Exam Scores based on Study Hours&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry y="30" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-5" target="_Mm1a8ISe6kqLSYXI3_9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-5" value="&lt;b&gt;&lt;font style=&quot;color: rgb(77, 77, 77);&quot;&gt;Create Dataset (100 Rows)&lt;br&gt;Hours Studied vs Exam Scores&lt;br&gt;Generated for Regression Model&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="30" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-9" target="_Mm1a8ISe6kqLSYXI3_9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b&gt;Import Libraries &amp;amp; Load Data&lt;br&gt;- pandas, numpy&lt;br&gt;- matplotlib.pyplot&lt;br&gt;- sklearn.model_selection&lt;br&gt;- sklearn.linear_model&lt;br&gt;- sklearn.metrics&lt;br&gt;Read DataFrame (Hours vs Score)&lt;/b&gt;" link="Import Libraries &amp; Load Data&#xa;- pandas, numpy&#xa;- matplotlib.pyplot&#xa;- sklearn.model_selection&#xa;- sklearn.linear_model&#xa;- sklearn.metrics&#xa;Read DataFrame (Hours vs Score)" id="_Mm1a8ISe6kqLSYXI3_9-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+            <mxGeometry x="580" width="190" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-11" target="_Mm1a8ISe6kqLSYXI3_9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-11" value="&lt;b&gt;Define Feature and Target&lt;br&gt;X = Hours (Independent Variable)&lt;br&gt;y = Scores (Dependent Variable)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="575" y="190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-14" target="_Mm1a8ISe6kqLSYXI3_9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-14" value="&lt;b&gt;Train-Test Split (80/20)&lt;br&gt;- Use train_test_split()&lt;br&gt;- random_state = 2529 for reproducibility&lt;br&gt;X_train, X_test, y_train, y_test&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="309" y="175" width="210" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b&gt;Train Linear Regression Model&lt;br&gt;- Create model: LinearRegression()&lt;br&gt;- Fit on training data:&lt;br&gt;&amp;nbsp; model.fit(X_train, y_train)&lt;/b&gt;" link="Train Linear Regression Model&#xa;- Create model: LinearRegression()&#xa;- Fit on training data:&#xa;  model.fit(X_train, y_train)" id="_Mm1a8ISe6kqLSYXI3_9-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+            <mxGeometry y="175" width="220" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-18" target="_Mm1a8ISe6kqLSYXI3_9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-18" value="&lt;b&gt;Extract Slope and Intercept&lt;br&gt;- slope = model.coef_[0]&lt;br&gt;- intercept = model.intercept_&lt;br&gt;- Final equation: y = m * x + c&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-16" target="_Mm1a8ISe6kqLSYXI3_9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-20" target="_Mm1a8ISe6kqLSYXI3_9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-20" value="&lt;b&gt;Predict on Test Set&lt;br&gt;- y_pred = model.predict(X_test)&lt;br&gt;- Compare actual vs predicted&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="315" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-22" value="&lt;b&gt;Evaluate Model Performance&lt;br&gt;- MAPE ≈ 12% → Good Accuracy&lt;br&gt;- R² ≈ 0.94 → Strong Model Fit&lt;br&gt;- Used sklearn.metrics&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="600" y="305" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-25" value="&lt;b&gt;Visualize Best-Fit Line&lt;br&gt;- matplotlib regression plot&lt;br&gt;- Training (blue), Test (green), Line (red)&lt;br&gt;- Shows model&#39;s prediction clarity&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Mm1a8ISe6kqLSYXI3_9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.611;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_Mm1a8ISe6kqLSYXI3_9-22" target="_Mm1a8ISe6kqLSYXI3_9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
